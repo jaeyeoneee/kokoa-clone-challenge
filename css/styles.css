@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+@import "component/state-bar.css";
+@import "component/screen-header.css";
+@import "component/nav-bar.css";
+@import "component/no-mobile.css";
+
+@import "screens/login.css";
+@import "screens/today.css";
+@import "screens/shop.css";
+@import "screens/chat.css";
+@import "screens/chats.css";
+@import "screens/plus.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  font-family: "Sora", sans-serif;
+}
+body::before {
+  content: "";
+  background-image: url(https://cdn.pixabay.com/photo/2017/01/12/06/26/flowers-1973875_640.png);
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+  z-index: -1;
+}
+main {
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa talk!</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-fan"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>10:22</span>
+      </div>
+      <div class="status-bar__column">
+        <span>66%</span>
+        <i class="fa-solid fa-face-grin-hearts"></i>
+        <i class="fa-solid fa-heart-circle-bolt"></i>
+      </div>
+    </div>
+    <main>
+      <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to FlowerTalk!</h1>
+
+        <i class="fa-solid fa-heart"></i>
+      </header>
+      <form class="login" action="today.html" method="get">
+        <input
+          class="login__input"
+          name="id"
+          type="text"
+          required
+          placeholder="Email or phone number"
+        />
+        <input
+          class="login__input"
+          name="password"
+          type="password"
+          required
+          placeholder="Password"
+        />
+        <input
+          class="login__input login__submit"
+          type="submit"
+          value="Log In"
+        />
+        <a class="login__link" href="#">More Information about FlowerTalk</a>
+      </form>
+    </main>
+    <div class="big-screen">
+      <span>Your screen is too big.</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/46d0b7c749.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

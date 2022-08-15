@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa talk!</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-fan"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>10:22</span>
+      </div>
+      <div class="status-bar__column">
+        <span>66%</span>
+        <i class="fa-solid fa-face-grin-hearts"></i>
+        <i class="fa-solid fa-heart-circle-bolt"></i>
+      </div>
+    </div>
+    <main class="chat-main">
+      <header class="chat-header">
+        <div class="chat-header__column">
+          <a href="chats.html"><i class="fa-solid fa-angle-left"></i></a>
+        </div>
+        <div class="chat-header__column">
+          <span>Player 1</span>
+        </div>
+        <div class="chat-header__column">
+          <i class="fa-solid fa-guitar"></i>
+          <i class="fa-solid fa-ghost"></i>
+        </div>
+      </header>
+      <div class="chat-date">Tuesday, june 30, 2022</div>
+      <div class="chat-dialog">
+        <i class="fa-solid fa-face-grin"></i>
+        <div class="chat-dialog__detail">
+          <span class="chat-dialog__name">Player1</span>
+          <div class="chat-dialog__balloon">Hello!</div>
+        </div>
+        <span class="chat-dialog__time">9:11</span>
+      </div>
+      <div class="chat-dialog chat-dialog--left">
+        <span class="chat-dialog__time">9:11</span>
+        <div class="chat-dialog__detail">
+          <div class="chat-dialog__balloon chat-dialog__balloon--left">
+            Hello!
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-solid fa-user-secret"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-solid fa-meteor"></i>
+        <button>
+          <i class="fa-solid fa-poo"></i>
+        </button>
+      </div>
+    </form>
+    <div class="big-screen">
+      <span>Your screen is too big.</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/46d0b7c749.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  border: 1px solid var(--violet);
+  background-color: white;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__btn {
+  display: flex;
+  justify-content: center;
+}
+.nav__link {
+  color: var(--violet);
+  font-size: 25px;
+  position: relative;
+}
+.nav__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--red);
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+.nav i:hover {
+  transform: translateY(-7px);
+}
+.nav i {
+  transition: transform 0.3s ease-in-out;
+}

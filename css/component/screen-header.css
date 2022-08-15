@@ -1,0 +1,25 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 23px;
+  color: var(--violet);
+  margin-bottom: 20px;
+}
+.screen-header__icons i {
+  margin-left: 10px;
+  /* transition: transform 0.5s ease-in-out; */
+}
+.screen-header__icons i:hover {
+  animation: shake 1s infinite;
+}
+@keyframes shake {
+  30% {
+    transform: rotateZ(15deg);
+  }
+  60% {
+    transform: rotateZ(-15deg);
+  }
+  100% {
+    transform: none;
+  }
+}

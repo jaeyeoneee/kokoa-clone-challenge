@@ -1,0 +1,103 @@
+.user-status {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--violet);
+  border-radius: 25px;
+  padding: 30px 20px;
+  color: var(--brown);
+  margin-bottom: 20px;
+}
+.user-status__column {
+  display: flex;
+  align-items: center;
+}
+.user-status__column:first-child i {
+  font-size: 65px;
+  color: rgb(142, 212, 37);
+  margin-right: 15px;
+}
+.user-status h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.user-status__column:last-child i {
+  color: grey;
+  font-size: 30px;
+  margin-left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.today-mood {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.today-mood__title {
+  background-color: var(--violet);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.today-mood__line {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.today-mood__line button {
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid var(--violet);
+  position: relative;
+  width: 90px;
+  height: 90px;
+  transition: all 0.3s ease-in-out;
+}
+.today-mood__line i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.fa-face-grin-squint-tears {
+  color: pink;
+}
+.fa-face-grin {
+  color: palevioletred;
+}
+.fa-face-grin-beam-sweat {
+  color: hotpink;
+}
+.fa-face-dizzy {
+  color: var(--green);
+}
+.fa-face-frown {
+  color: rgb(113, 154, 53);
+}
+.fa-face-kiss {
+  color: rgb(199, 210, 84);
+}
+.fa-face-sad-cry {
+  color: rgb(91, 91, 148);
+}
+.fa-face-grin-tongue {
+  color: rgb(80, 161, 161);
+}
+.fa-face-grin-stars {
+  color: blueviolet;
+}
+.fa-check {
+  position: absolute;
+  color: var(--red);
+  top: -15px;
+  right: 15px;
+}
+.today-mood__line:nth-child(3) button:nth-child(1) {
+  background-color: rgba(221, 209, 209, 0.4);
+}
+.today-mood__line button:hover {
+  background-color: rgba(221, 209, 209, 0.4);
+}
+.user-status__column:last-child i:hover {
+  color: black;
+}
